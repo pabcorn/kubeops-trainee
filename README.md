@@ -4,7 +4,7 @@
 2.	How do you revert a commit that has already been pushed and made public? 
     - git revert <ตามด้วย commit ที่เขียนไว้ ที่ -m> 
 3.	How do you normally solve conflicts in a feature branch before merge?
-    - sadadasfsedgvv
+    - ไม่รู้ ตอบไปเลยว่าไม่รู้ 5555+
 ## Intermediate
 
 ## Professional
