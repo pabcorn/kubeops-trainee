@@ -6,9 +6,42 @@
 3.	How do you normally solve conflicts in a feature branch before merge?
     - *I don't know*
 4.	“200 OK” what does it mean and show use case this HTTP Status?
-    - หมายถึงเครื่องของผู้ใช้ร้องขอการเข้าถึงเซิร์ฟเวอร์ประสบความสำเร็จ ซึ่งเซิร์ฟเวอร์ได้เข้าใจตรงกับเครื่องผู้ใช้ และดำเนินการไปอีกขั้นตอนได้
+    - หมายถึงเครื่องของผู้ใช้ request การเข้าถึงเซิร์ฟเวอร์ประสบความสำเร็จ ซึ่งเซิร์ฟเวอร์ได้ reponse ตรงกับเครื่องผู้ใช้ และดำเนินการไปอีกขั้นตอนได้
 5.	“201 Created” what does it mean and show use case this HTTP Status?
-    - คล้ายกับข้อ 4 แต่เมื่อรับคำขอสำเร็จ เซิร์ฟเวอร์จะเรียกทรัพยากร มาสร้างเว็บไซต์ เช่น หน้าต่างแรก (index.html)
+    - คล้ายกับข้อ 4 แต่เมื่อรับ request สำเร็จ เซิร์ฟเวอร์จะเรียกทรัพยากร มาสร้างเว็บไซต์ เช่น หน้าต่างแรก (index.html)
+6.	“301 Moved Permanently” what does it mean and show use case this HTTP Status?
+7.	“400 Bad Request” what does it mean and how to identify the problem?
+8.	“401 Unauthorized” what does it mean and how to identify the problem?
+9.	“403 Forbidden” what does it mean and how to identify the problem?
+10.	“404 Not Found” what does it mean and how to identify the problem?
+11.	“500 Internal Server Error” what does it mean and how to identify the problem?
+12.	“502 Bad Gateway” what does it mean and how to identify the problem?
+13.	“503 Service Unavailable” what does it mean and how to identify the problem?
+14.	“504 Gateway Timeout” what does it mean and how to identify the problem?
+15.	What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?
+
 ## Intermediate
+1.	Assume we have an application that is designed as below. Our application stopped responding due to an extremely high number of clients in some circumstances.
+-	We have tried scaling a number of API Gateway and Service A nodes but it didn’t help. What are the possible problems that lies in our system in which components and how to fix them?
+2.	How do you keep the docker image smallest as possible?
+3.	What is the difference between overlay, bridge, host network in Docker? When to use each of them?
+4.	How does the Kubernetes service talk to each other in the same cluster?
+5.	What’s different between L2, L4, and L7 Load balancers? When to use it?
 
 ## Professional
+1.	Assume that you are using a private cloud for your infrastructure. How do you manage logs, metrics, and alerts for your infrastructure and applications? Which tools do you use and why?
+2.	How do you secure the following?
+·  	application
+·  	infrastructure
+·  	data
+
+3.	Base on your experience, how do you reduce your service downtime as much as possible during
+·  	software upgrade
+·  	database migration
+·  	incident
+4.	Configuration management
+a. 	Which Among Puppet, chef, Ansible, or another is the best Configuration management tool?
+b. 	Why?
+c. 	Do you still need to use it if you already have docker-swarm or Kubernetes?
+5.	How do you design your Kubernetes cluster? what DNS, CNI, ingression is being used? Why?
+6.	How do you measure service quality to give the best experience to your customer? (SLO, SLA)
