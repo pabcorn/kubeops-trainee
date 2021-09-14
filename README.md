@@ -1,13 +1,18 @@
 ## Normal
 1.  Describe Git branching strategies (Git-flow, single branch, feature branch etc.) which you have used and what purpose does it serves.
-    - ผมเคยใช้ Git branching strategies บางส่วนเช่น เพื่อใช้ในการแยกการทำงานระหว่าง สาขาหลัก(Main) กับ สาขาพัฒนา(Develop). 
+// อธิบายวิธีการทำ Git branching  (Git-flow,single branch, feature)ที่คุณได้ใช้ และจงบอกว่าทำไมถึงใช้วิธีดังกล่าว
+    -  
 2.	How do you revert a commit that has already been pushed and made public? 
+// คุณจะย้อนกลับหากมีความผิดพลาดในการทำงาน(ตัวโปรแกรม,ตัวเว็ป?) อย่างไร ถ้าหากทำการ push และ publish ออกไปแล้ว
     - git revert <ตามด้วย commit ที่เขียนไว้เป็น code ใน log> 
 3.	How do you normally solve conflicts in a feature branch before merge?
+// คุณจะแก้ไขปัญหาในกรณีที่เกิดความขัดแย้ง(?)ในการ feature branch ได้อย่างไร ก่อนจะทำการ รวมกลุ่ม,จัดกลุ่ม(merge)
     - *I don't know*
 4.	“200 OK” what does it mean and show use case this HTTP Status?
+// "200 OK" ข้อความนี้มีความหมายว่าอย่างไร จงแสดง use case (ตัวอย่าง?) หาก http มีสถานะดังกล่าว
     - หมายถึงเครื่องของผู้ใช้ request การเข้าถึงเซิร์ฟเวอร์ประสบความสำเร็จ ซึ่งเซิร์ฟเวอร์ได้ reponse ตรงกับเครื่องผู้ใช้ และดำเนินการไปอีกขั้นตอนได้
 5.	“201 Created” what does it mean and show use case this HTTP Status?
+// "201 created" ข้อความนี้มีความหมายว่าอย่างไร จงแสดง use case (ตัวอย่าง?) หาก http มีสถานะดังกล่าว
     - คล้ายกับข้อ 4 แต่เมื่อรับ request สำเร็จ เซิร์ฟเวอร์จะเรียกทรัพยากร มาสร้างเว็บไซต์ เช่น หน้าต่างแรก (index.html)
 6.	“301 Moved Permanently” what does it mean and show use case this HTTP Status?
 7.	“400 Bad Request” what does it mean and how to identify the problem?
