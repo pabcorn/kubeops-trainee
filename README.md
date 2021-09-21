@@ -1,6 +1,5 @@
 ## Normal
 1.  Describe Git branching strategies (Git-flow, single branch, feature branch etc.) which you have used and what purpose does it serves.
-/* อธิบายวิธีการทำ Git branching  (Git-flow,single branch, feature)ที่คุณได้ใช้ และจงบอกว่าทำไมถึงใช้วิธีดังกล่าว */
     - วิธีการทำแบบ single branch หรือ การต่อกิ่งของ branch main สร้างไฟล์ขนาดใหญ่ ลงใน branch เดียว  เพราะเคยใช้ในการสร้างเว็บไซต์เพื่อการศึกษาทางวิทยาลัย เรียบง่าย โคลนไฟล์รวดเร็ว
 2.	How do you revert a commit that has already been pushed and made public? 
 // คุณจะย้อนกลับหากมีความผิดพลาดในการทำงาน(ตัวโปรแกรม,ตัวเว็ป?) อย่างไร ถ้าหากทำการ push และ publish ออกไปแล้ว
