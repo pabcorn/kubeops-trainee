@@ -14,15 +14,36 @@
 // "201 created" ข้อความนี้มีความหมายว่าอย่างไร จงแสดง use case (ตัวอย่าง?) หาก http มีสถานะดังกล่าว
     - คล้ายกับข้อ 4 แต่เมื่อรับ request สำเร็จ เซิร์ฟเวอร์จะเรียกทรัพยากร มาสร้างเว็บไซต์ เช่น หน้าต่างแรก (index.html)
 6.	“301 Moved Permanently” what does it mean and show use case this HTTP Status?
+//  "301 Moved Permanently" ข้อความนี้มีความหมายว่าอย่างไร จงแสดง use case (ตัวอย่าง?)
+
 7.	“400 Bad Request” what does it mean and how to identify the problem?
+//  "400 Bad Request" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 8.	“401 Unauthorized” what does it mean and how to identify the problem?
+//  "401 Unauthorized" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 9.	“403 Forbidden” what does it mean and how to identify the problem?
+//  "403 Forbidden" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 10.	“404 Not Found” what does it mean and how to identify the problem?
+//  "404 Not Found" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 11.	“500 Internal Server Error” what does it mean and how to identify the problem?
+//  "500 Internal Server Error" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
+
 12.	“502 Bad Gateway” what does it mean and how to identify the problem?
+//  "502 Bad Gateway" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 13.	“503 Service Unavailable” what does it mean and how to identify the problem?
+//  "503 Service Unavailable" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 14.	“504 Gateway Timeout” what does it mean and how to identify the problem?
+//  "504 Gateway Timeout" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+
 15.	What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?
+//  คุณใช้ Linux network tools (excutable file พวก binary/.exe) อะไรในการแก้ไขปัญหา และวิธีแก้ปัญหาต้องทำยังไงบ้าง บอกเป็นลำดับขั้นตอนในการใช้ tools นั้นมา
+
 
 ## Intermediate
 1.	Assume we have an application that is designed as below. Our application stopped responding due to an extremely high number of clients in some circumstances.
