@@ -15,35 +15,39 @@
     - คล้ายกับข้อ 4 แต่เมื่อรับ request สำเร็จ เซิร์ฟเวอร์จะเรียกทรัพยากร มาสร้างเว็บไซต์ เช่น หน้าต่างแรก (index.html)
 6.	“301 Moved Permanently” what does it mean and show use case this HTTP Status?
 //  "301 Moved Permanently" ข้อความนี้มีความหมายว่าอย่างไร จงแสดง use case (ตัวอย่าง?)
-
+    - ลิงก์ปัจจุบันที่ใช้ URL ที่ได้รับคำตอบนี้ควรได้รับการอัปเดต 
 7.	“400 Bad Request” what does it mean and how to identify the problem?
 //  "400 Bad Request" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
-
+    - การเรียกหน้าเว็บจากฝั่งผู้ใช้งานที่ผิดพลาด หรือไม่พบเจอ URL นี้
 8.	“401 Unauthorized” what does it mean and how to identify the problem?
 //  "401 Unauthorized" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+    - จะแสดงก็ต่อเมื่อเข้าไปยังเว็บไซต์ที่ไม่ได้รับอนุญาตให้เข้าถึง
 
 9.	“403 Forbidden” what does it mean and how to identify the problem?
 //  "403 Forbidden" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+    - การที่ผู้ใช้งานถูกปิดกั้นการเข้าถึงไฟล์ เข้าถึงข้อมูล หรือเว็บไซต์ พอมีการเรียกใช้งานก็จะพบ HTTP Status Code
 
 10.	“404 Not Found” what does it mean and how to identify the problem?
 //  "404 Not Found" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
-
+    - หน้าที่แจ้งเตือนว่าไม่พบข้อมูลอยู่ใน Server ของเว็บไซต์นี้ หรือไม่พบ URL ของหน้าเว็บไซต์นี้
 11.	“500 Internal Server Error” what does it mean and how to identify the problem?
 //  "500 Internal Server Error" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
-
+    - Server ไม่พร้อมให้บริการ หรือกำลังมีปัญหาอยู่ ทำให้ไม่สามารถเข้าถึงหน้าเว็บไซต์ได้
 
 12.	“502 Bad Gateway” what does it mean and how to identify the problem?
 //  "502 Bad Gateway" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+    - การรับส่งข้อมูลกันระหว่าง Server กับ Server ที่มี Error
 
 13.	“503 Service Unavailable” what does it mean and how to identify the problem?
 //  "503 Service Unavailable" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
+    - เว็บเซิร์ฟเวอร์ไม่สามารถจัดการคำขอได้ชั่วคราวนั่นอาจเป็นเว็บเซิร์ฟเวอร์ที่คุณพยายามเข้าถึงโดยตรงหรือเซิร์ฟเวอร์อื่นที่เว็บเซิร์ฟเวอร์พยายามเข้าถึง
 
 14.	“504 Gateway Timeout” what does it mean and how to identify the problem?
 //  "504 Gateway Timeout" ข้อความนี้มีความหมายว่าอย่างไร และเราสามารถหาปัญหาที่เกิดจากตัวนี้ได้อย่างไร
-
+    - เซิร์ฟเวอร์หนึ่งไม่ได้รับการตอบสนองที่รวดเร็วจากเซิร์ฟเวอร์อื่นเมื่อคุณเข้าถึงเว็บเพจหรือกรอกคำขออื่น ๆ โดยเบราว์เซอร์
 15.	What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?
 //  คุณใช้ Linux network tools (excutable file พวก binary/.exe) อะไรในการแก้ไขปัญหา และวิธีแก้ปัญหาต้องทำยังไงบ้าง บอกเป็นลำดับขั้นตอนในการใช้ tools นั้นมา
-
+    - 
 
 ## Intermediate
 1.	Assume we have an application that is designed as below. Our application stopped responding due to an extremely high number of clients in some circumstances.
