@@ -47,7 +47,7 @@
     - เซิร์ฟเวอร์หนึ่งไม่ได้รับการตอบสนองที่รวดเร็วจากเซิร์ฟเวอร์อื่นเมื่อคุณเข้าถึงเว็บเพจหรือกรอกคำขออื่น ๆ โดยเบราว์เซอร์
 15.	What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?
 //  คุณใช้ Linux network tools (excutable file พวก binary/.exe) อะไรในการแก้ไขปัญหา และวิธีแก้ปัญหาต้องทำยังไงบ้าง บอกเป็นลำดับขั้นตอนในการใช้ tools นั้นมา
-    - 
+    - แก้ปัญหาการเชื่อมต่ออินเทอร์เน็ต ที่ไม่สามารถจะเชื่อมต่อได้นาน 30 นาที
 
 ## Intermediate
 1.	Assume we have an application that is designed as below. Our application stopped responding due to an extremely high number of clients in some circumstances.
