@@ -1,4 +1,4 @@
-var fizzBuzz = 3;
+var fizzBuzz = 45;
 var answer = "";
 
 /* switch (input) {
@@ -14,4 +14,4 @@ var answer = "";
         break;
 } */
 answer = fizzBuzz % 3 == 0 & fizzBuzz % 5 == 0 ? console.log("FizzBuzz") : fizzBuzz % 3 == 0 ? console.log("Fizz") : fizzBuzz % 5 == 0 ? console.log("Buzz") : fizzBuzz;
-console.log(answer);
+console.log(">> Fizzbuzz (" + fizzBuzz +")\n" + answer);
