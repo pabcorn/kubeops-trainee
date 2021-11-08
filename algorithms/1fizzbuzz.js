@@ -1,4 +1,4 @@
-var fizzBuzz = 45;
+var fizzBuzz = 38;
 var answer = "";
 
 /* switch (input) {

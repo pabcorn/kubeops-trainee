@@ -39,5 +39,5 @@ let jobs = [
     time: 6
   }
 ];
-distributeJobs = [servers, jobs];
-console.log(distributeJobs);
+distributeJobs = [servers.length, jobs.length];
+console.log("Distribute => ",distributeJobs);
