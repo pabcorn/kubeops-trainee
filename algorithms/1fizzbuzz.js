@@ -14,4 +14,4 @@ var answer = "";
         break;
 } */
 answer = fizzBuzz % 3 === 0 & fizzBuzz % 5 === 0 ? console.log("FizzBuzz") : fizzBuzz % 3 === 0 ? console.log("Fizz") : fizzBuzz % 5 === 0 ? console.log("Buzz") : fizzBuzz;
-console.log(">> It's Fizzbuzz Right? (" + fizzBuzz +")");
+console.log(">> Number is (" + fizzBuzz +")");
