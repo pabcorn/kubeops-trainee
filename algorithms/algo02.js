@@ -1,5 +1,5 @@
-serverCount = 4;
-jobCount = 10;
+serverCount = 2;
+jobCount = 7;
 
 
 function distribute(serverCount, jobCount) {
